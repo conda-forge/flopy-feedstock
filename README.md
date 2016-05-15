@@ -5,7 +5,7 @@ Home: https://github.com/modflowpy/flopy.git
 
 Package license: BSD
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flopy-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/flopy-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/flopy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flopy-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flopy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flopy-feedstock/branch/master)
