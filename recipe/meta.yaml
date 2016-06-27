@@ -7,7 +7,7 @@ source:
     git_tag: 3.2.5
 
 build:
-    number: 1
+    number: 0
     script: python setup.py install --single-version-externally-managed  --record record.txt
 
 requirements:
@@ -34,3 +34,4 @@ extra:
     recipe-maintainers:
         - kwilcox
         - ocefpaf
+        - jdhughes-usgs
