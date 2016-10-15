@@ -1,13 +1,13 @@
 About flopy
 ===========
 
-Home: https://github.com/modflowpy/flopy.git
+Home: https://github.com/modflowpy/flopy
 
-Package license: BSD
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models
+Summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models.
 
 
 
