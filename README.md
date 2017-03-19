@@ -11,6 +11,18 @@ Summary: FloPy is a Python package for developing, running, and post-processing 
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flopy-feedstock_git-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flopy-feedstock_git-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flopy-feedstock_git-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flopy-feedstock_git-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flopy-feedstock_git-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flopy-feedstock-git-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flopy/badges/version.svg)](https://anaconda.org/conda-forge/flopy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flopy/badges/downloads.svg)](https://anaconda.org/conda-forge/flopy)
+
 Installing flopy
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `flopy` available on your platform
 ```
 conda search flopy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flopy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flopy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flopy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flopy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flopy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flopy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flopy/badges/version.svg)](https://anaconda.org/conda-forge/flopy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flopy/badges/downloads.svg)](https://anaconda.org/conda-forge/flopy)
 
 
 Updating flopy-feedstock
