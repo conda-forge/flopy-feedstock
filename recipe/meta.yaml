@@ -7,7 +7,7 @@ package:
 source:
   fn: flopy-{{ version }}.tar.gz
   url: https://github.com/modflowpy/flopy/archive/{{ version }}.tar.gz
-  sha256: d062ef6b9da54e567bbc9c7f5241ef4828c346d749fc4b9443b11b37381bf8ae
+  sha256: aeb580c61b9ad39f71aea3d8c8c76b40346eecc06ad52bab57c2461b4a59952d
 
 build:
   number: 0
