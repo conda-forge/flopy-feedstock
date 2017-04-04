@@ -14,9 +14,9 @@ Summary: FloPy is a Python package for developing, running, and post-processing 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flopy-feedstock_git-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flopy-feedstock_git-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flopy-feedstock_git-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flopy-feedstock_git-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flopy-feedstock_git-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flopy-feedstock-git-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flopy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flopy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flopy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flopy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flopy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flopy-feedstock/branch/master)
 
 Current release info
 ====================
