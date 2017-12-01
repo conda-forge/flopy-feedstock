@@ -19,10 +19,12 @@ requirements:
     - setuptools
     - numpy
     - matplotlib
+    - enum34
   run:
     - python
     - numpy
     - matplotlib
+    - enum34
 
 test:
   imports:
