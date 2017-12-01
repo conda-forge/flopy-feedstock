@@ -11,8 +11,7 @@ source:
 build:
   number: 0
   script: 
-    - if [[ $CONDA_PY == 2.7 ]]; then conda install enum34; fi    
-    - python setup.py install --single-version-externally-managed  --record record.txt
+    - python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
