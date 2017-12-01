@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   script: 
-    - if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then conda install enum34; fi
+    - if [[ $CONDA_PY == 2.7 ]]; then conda install enum34; fi    
     - python setup.py install --single-version-externally-managed  --record record.txt
 
 requirements:
