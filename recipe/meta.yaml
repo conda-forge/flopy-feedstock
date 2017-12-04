@@ -9,14 +9,13 @@ source:
   sha256: 02737892c9598514ce7684a9ef9d47d2c66ad04a24d306dac7af5be537b51836
 
 build:
-  number: 0
-  script: 
-    - python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - numpy
     - matplotlib
     - enum34  # [py27]
@@ -33,6 +32,7 @@ test:
 about:
   home: https://github.com/modflowpy/flopy
   license: BSD 3-Clause
+  license_file: LICENSE
   summary: 'FloPy is a Python package for developing, running, and post-processing MODFLOW-based models.'
 
 extra:
