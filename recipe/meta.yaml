@@ -13,7 +13,7 @@ build:
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - numpy
@@ -31,9 +31,9 @@ test:
 
 about:
   home: https://github.com/modflowpy/flopy
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'FloPy is a Python package for developing, running, and post-processing MODFLOW-based models.'
+  summary: 'FloPy is a Python package for developing, running, and post-processing MODFLOW-based models'
 
 extra:
   recipe-maintainers:
