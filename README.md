@@ -18,8 +18,8 @@ Current build status
 <table><tr>
     <td>Appveyor</td>
     <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/flopy-feedstock-git-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/flopy-feedstock-git-feedstock/master.svg?label=Windows">
+      <a href="https://ci.appveyor.com/project/conda-forge/flopy-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/flopy-feedstock/master.svg?label=Windows">
       </a>
     </td>
   </tr>
@@ -29,8 +29,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master">
           </a>
         </summary>
         <table>
@@ -38,64 +38,64 @@ Current build status
           <tbody><tr>
               <td>linux_python2.7</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_python3.6</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_python3.7</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_python2.7</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_python3.6</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_python3.7</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_python2.7</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=win&configuration=win_python2.7" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=win&configuration=win_python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_python3.6</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_python3.7</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock_git-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=323&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flopy-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
                 </a>
               </td>
             </tr>
@@ -104,6 +104,7 @@ Current build status
       </details>
     </td>
   </tr>
+![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
 </table>
 
 Current release info
