@@ -1,4 +1,4 @@
-{% set version = "3.2.13" %}
+{% set version = "3.3.0" %}
 
 package:
   name: flopy
@@ -6,10 +6,11 @@ package:
 
 source:
   url: https://github.com/modflowpy/flopy/archive/{{ version }}.tar.gz
-  sha256: 1724b5b22214f12888952a44d8db64701c8099386d8821f3e8c8de376fcb11ed
+  sha256: a354695630b8104421aa94c48ee87b744ca6f4a58697f1972b904090f1ce770f
 
 build:
   number: 0
+  skip: true  # [py<35]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
 requirements:
@@ -18,12 +19,10 @@ requirements:
     - pip
     - numpy
     - matplotlib
-    - enum34  # [py27]
   run:
     - python
     - numpy
     - matplotlib
-    - enum34  # [py27]
 
 test:
   imports:
