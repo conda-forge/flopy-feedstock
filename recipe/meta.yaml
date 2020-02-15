@@ -9,7 +9,7 @@ source:
   sha256: a354695630b8104421aa94c48ee87b744ca6f4a58697f1972b904090f1ce770f
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<35]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
@@ -18,11 +18,11 @@ requirements:
     - python
     - pip
     - numpy
-    - matplotlib
+    - matplotlib-base
   run:
     - python
     - numpy
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
