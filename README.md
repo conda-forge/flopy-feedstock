@@ -200,4 +200,3 @@ Feedstock Maintainers
 * [@jdhughes-usgs](https://github.com/jdhughes-usgs/)
 * [@kwilcox](https://github.com/kwilcox/)
 * [@ocefpaf](https://github.com/ocefpaf/)
-
