@@ -5,7 +5,7 @@ Home: https://github.com/modflowpy/flopy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models
 
@@ -200,7 +200,4 @@ Feedstock Maintainers
 * [@jdhughes-usgs](https://github.com/jdhughes-usgs/)
 * [@kwilcox](https://github.com/kwilcox/)
 * [@ocefpaf](https://github.com/ocefpaf/)
-
-
-<!-- dummy commit to enable rerendering -->
 
