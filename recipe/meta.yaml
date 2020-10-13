@@ -9,7 +9,7 @@ source:
   sha256: b7e701b0aea0409139238bc931f2767e40e7ab55762c2e01a512f8405c801580
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<35]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
