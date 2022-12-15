@@ -9,29 +9,35 @@ source:
   sha256: 97618b3699fad3f1957111c3e6f3f929cf6a07073eabbc40e4513a53d844bce5
 
 build:
+  entry_points:
+    - get-modflow = flopy.utils.get_modflow:cli_main
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
   number: 0
-  skip: true  # [py<35]
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
-    - numpy
-    - matplotlib-base
+    - setuptools >45
   run:
-    - python
-    - numpy
-    - matplotlib-base
+    - python >=3.7
+    - numpy >=1.15.0
+    - matplotlib-base >=1.4.0
 
 test:
   imports:
     - flopy
+  commands:
+    - pip check
+    - get-modflow --help
+  requires:
+    - pip
 
 about:
   home: https://github.com/modflowpy/flopy
-  license: BSD-3-Clause
-  license_file: LICENSE
+  license: CC0-1.0
+  license_file: LICENSE.md
   summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models
 
 extra:
