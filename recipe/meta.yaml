@@ -1,12 +1,13 @@
+{% set name = "flopy" %}
 {% set version = "3.4.0" %}
 
 package:
-  name: flopy
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/modflowpy/flopy/archive/{{ version }}.tar.gz
-  sha256: c63c4f1c39f66da4820abb33c97d218387e8906a45e4a8610ad3673338e0ef29
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flopy-{{ version }}.tar.gz
+  sha256: 5c5dad2b82ce46b451a0bbde194c4d5250c3b0b83b4ae62337b907d32612b08e
 
 build:
   entry_points:
@@ -17,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
+    - setuptools >=61
     - pip
-    - setuptools >45
   run:
-    - python >=3.7
+    - python >=3.8
     - numpy >=1.15.0
     - matplotlib-base >=1.4.0
 
@@ -35,10 +36,9 @@ test:
     - pip
 
 about:
-  home: https://github.com/modflowpy/flopy
+  summary: FloPy is a Python package to create, run, and post-process MODFLOW-based models
   license: CC0-1.0
   license_file: LICENSE.md
-  summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models
 
 extra:
   recipe-maintainers:
