@@ -36,6 +36,7 @@ test:
     - pip
 
 about:
+  home: https://github.com/modflowpy/flopy
   summary: FloPy is a Python package to create, run, and post-process MODFLOW-based models
   license: CC0-1.0
   license_file: LICENSE.md
