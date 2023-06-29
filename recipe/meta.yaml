@@ -1,4 +1,4 @@
-{% set version = "3.3.6" %}
+{% set version = "3.4.0" %}
 
 package:
   name: flopy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/modflowpy/flopy/archive/{{ version }}.tar.gz
-  sha256: 97618b3699fad3f1957111c3e6f3f929cf6a07073eabbc40e4513a53d844bce5
+  sha256: c63c4f1c39f66da4820abb33c97d218387e8906a45e4a8610ad3673338e0ef29
 
 build:
   entry_points:
