@@ -1,11 +1,11 @@
-About flopy
-===========
+About flopy-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flopy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/modflowpy/flopy
 
 Package license: CC0-1.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flopy-feedstock/blob/main/LICENSE.txt)
 
 Summary: FloPy is a Python package for developing, running, and post-processing MODFLOW-based models
 
