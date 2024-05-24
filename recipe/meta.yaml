@@ -1,5 +1,5 @@
 {% set name = "flopy" %}
-{% set version = "3.6.0" %}
+{% set version = "3.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flopy-{{ version }}.tar.gz
-  sha256: aec992c6280c689e53b2e4e907927e7447657e87e92c2dd99c9123437cfe4167
+  sha256: d0f0cca3cfed3959c16d923cbd38aefc6fa4304f732f5cb56dce33a401f467ce
 
 build:
   entry_points:
