@@ -6,24 +6,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flopy-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flopy-{{ version }}.tar.gz
   sha256: 0ce2941f4095df2ca1d510f28df57224bdeb90636a3f3beeb199f09f635ddc62
 
 build:
   entry_points:
     - get-modflow = flopy.utils.get_modflow:cli_main
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools >=61
     - pip
   run:
+    - python >={{ python_min }}
     - pandas >=2.0.0
-    - python >=3.8
     - numpy >=1.20.3
     - matplotlib-base >=1.4.0
 
@@ -35,6 +35,7 @@ test:
     - get-modflow --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/modflowpy/flopy
@@ -47,3 +48,4 @@ extra:
     - kwilcox
     - ocefpaf
     - jdhughes-usgs
+    - mwtoews
