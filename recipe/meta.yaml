@@ -1,5 +1,5 @@
 {% set name = "flopy" %}
-{% set version = "3.9.5" %}
+{% set version = "3.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flopy-{{ version }}.tar.gz
-  sha256: 0b485999e7ee216ed34f6922286596e51e4cb14d7da668178a436bd1209456bd
+  sha256: b2b9557d69272f988f240d1f156de394ee93be4de2b88b6dc3f4d44b6a3d63cb
 
 build:
   entry_points:
@@ -24,9 +24,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.20.3
+    - numpy >=1.20.3,<3.0
     - matplotlib-base >=1.4.0
-    - pandas >=2.0.0
+    - pandas >=2.0.0,<3.0
 
 test:
   imports:
