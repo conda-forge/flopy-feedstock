@@ -2,7 +2,8 @@ schema_version: 1
 
 context:
   name: flopy
-  version: "3.11.0"
+  version: 3.12.0
+  python_min: "3.12"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +11,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/flopy-${{ version }}.tar.gz
-  sha256: b68006f33956b2c86f263084fddf3e5d39b7e57021a600b48350c5ebafe1fac8
+  sha256: 4fa30d1fcdb3abd3cc80177503e336dac9fc8ed9b3f103b73a5803f35c9f9317
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
@@ -28,9 +29,9 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - numpy >=1.20.3,<3.0
+    - numpy >=2.2.0,<3.0
     - matplotlib-base >=1.4.0
-    - pandas >=2.0.0
+    - pandas >=2.2.0
   extras:
     codegen:
       - boltons >=1.0
@@ -69,7 +70,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
   - requirements:
       run:
         - pip
