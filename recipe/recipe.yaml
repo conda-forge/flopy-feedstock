@@ -3,6 +3,7 @@ schema_version: 1
 context:
   name: flopy
   version: 3.12.0
+  python_min: "3.12"
 
 package:
   name: ${{ name|lower }}
